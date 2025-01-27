@@ -1,0 +1,163 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2874f0; /* Flipkart Blue */
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo img {
+  width: 120px;
+}
+
+.search-bar input {
+  width: 60%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+  margin-left: 10px;
+  background-color: yellow;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #f0c040;
+}
+
+.nav-items ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-items ul li {
+  margin: 0 15px;
+}
+
+.nav-items ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-items ul li a:hover {
+  color: #f0c040;
+}
+
+.icons button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.icons button:hover {
+  color: #f0c040;
+}
+
+/* Carousel styles */
+.carousel {
+  margin: 20px;
+  padding: 10px;
+}
+
+.carousel-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+}
+
+.carousel-item {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.carousel-item p {
+  font-size: 16px;
+  padding: 10px;
+}
+
+/* Categories Section */
+.categories {
+  margin: 20px;
+}
+
+.category-list {
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+}
+
+.category-item {
+  text-align: center;
+}
+
+.category-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.category-item p {
+  margin-top: 10px;
+}
+
+/* Offers Section */
+.offers {
+  margin: 20px;
+}
+
+.offer-item {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.offer-item img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.offer-item p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
